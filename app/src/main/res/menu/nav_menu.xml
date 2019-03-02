@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/all_event"
+            android:icon="@drawable/ic_all_event"
+            android:title="全部事件"></item>
+        <item
+            android:id="@+id/urgent_event"
+            android:icon="@drawable/ic_urgent"
+            android:title="紧急事件"></item>
+        <item
+            android:id="@+id/important_event"
+            android:icon="@drawable/ic_important"
+            android:title="重要事件"></item>
+        <item
+            android:id="@+id/common_event"
+            android:icon="@drawable/ic_common"
+            android:title="常规事件"></item>
+    </group>
+</menu>
